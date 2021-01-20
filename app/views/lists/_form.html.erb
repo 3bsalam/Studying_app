@@ -10,7 +10,11 @@
       </ul>
     </div>
   <% end %>
-
+  <p>
+    <%= form.label :title%>
+    <br>
+    <%= form.text_field :title, :id => 'title'  %>
+  </p>
   <div class="actions">
     <%= form.submit %>
   </div>

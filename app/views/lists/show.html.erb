@@ -1,4 +1,11 @@
 <p id="notice"><%= notice %></p>
+<h2>List Details</h2>
+<dl class="dl-horizontal">
+  <dt><strong>Title</strong></dt>
+  <dd><%= @list.title %></dd>
+  <dt><strong>created date</strong></dt>
+  <dd><%= @list.created_at %></dd>
+</dl>
 
 <%= link_to 'Edit', edit_list_path(@list) %> |
 <%= link_to 'Back', lists_path %>
