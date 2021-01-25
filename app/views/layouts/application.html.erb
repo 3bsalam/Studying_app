@@ -18,7 +18,7 @@
                 <tbody>
                   <tr>
                     <td>Logged in as:</td>
-                    <td><strong><%= current_user.email %></strong></td>
+                    <td><strong><%= current_user.username %></strong></td>
                     <td><div class="destroy-button"><%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %></div></td>
                   </tr>
                 </tbody>
